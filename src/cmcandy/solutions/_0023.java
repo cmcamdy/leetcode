@@ -1,28 +1,52 @@
 package cmcandy.solutions;
 
 /**
- * Created by CHEN on 2020/4/20.
+ * Created by CHEN on 2020/4/21.
  */
-public class _0021 {
+public class _0023 {
+
     /**
      * Definition for singly-linked list.
      * public class ListNode {
-     * int val;
-     * ListNode next;
-     * ListNode(int x) { val = x; }
+     *     int val;
+     *     ListNode next;
+     *     ListNode(int x) { val = x; }
      * }
      */
     static class ListNode {
         int val;
         ListNode next;
-
         ListNode(int x) {
             val = x;
         }
     }
-
     static class Solution {
-        public ListNode mergeTwoLists(ListNode l1, ListNode l2) {
+        public ListNode mergeKLists(ListNode[] lists) {
+            if(lists.length == 0)
+                return null;
+            if(lists.length == 1)
+                return lists[0];
+            if(lists.length == 2){
+                return mergeTwoLists(lists[0],lists[1]);
+            }
+            int mid = lists.length/2;
+            ListNode[] l1 = new ListNode[mid];
+            ListNode[] l2 = new ListNode[lists.length- mid];
+            for (int i = 0 ;i<mid;i++){
+                l1[i] = lists[i];
+            }
+            for(int i = mid;i<lists.length;i++){
+                l2[i-mid] = lists[i];
+            }
+            return mergeTwoLists(mergeKLists(l1),mergeKLists(l2));
+        }
+
+        public ListNode mergeTwoLists(ListNode l1,ListNode l2) {
+            if (l1==null){
+                return l2;
+            }else if (l2==null){
+                return l1;
+            }
             ListNode head, tail;
             //第一个节点
             if (l1.val > l2.val) {
@@ -51,23 +75,9 @@ public class _0021 {
             }
             return head;
         }
+
     }
 
-    public static void main(String[] args) {
-        ListNode listNode1=null;
-        ListNode listNode2=null;
-        ListNode temp=null;
-        int[] arr1 = new int[]{1, 2, 4};
-        int[] arr2 = new int[]{1, 3, 4};
-        for (int i = arr1.length-1; i >=0; i--) {
-            temp = new ListNode(arr1[i]);
-            temp.next = listNode1;
-            listNode1 = temp;
-            temp = new ListNode(arr2[i]);
-            temp.next = listNode2;
-            listNode2 = temp;
-        }
-        Solution solution = new Solution();
-        System.out.println(solution.mergeTwoLists(listNode1,listNode2));
-    }
+
+
 }

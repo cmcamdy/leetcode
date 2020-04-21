@@ -10,25 +10,59 @@ public class _0016 {
         public int threeSumClosest(int[] nums, int target) {
             //排序
             Arrays.sort(nums);
-            int min = Integer.MAX_VALUE;
-            int right, left;
-            for (int i = 0; i < nums.length - 2; i++) {
-                if ((i >= 1 && nums[i - 1] == nums[i])) continue;
-                if (nums[i] > 0) break;
-                right = nums.length - 1;
-                left = i + 1;
-                while (right > left) {
-                     if (nums[right] + nums[i] + nums[left] <min ) {
-                        //可以匹配
-                        min = nums[right] + nums[i] + nums[left];
-                        while (left < right && nums[left] == nums[left + 1]) left++; // 去重
-                        while (left < right && nums[right] == nums[right - 1]) right--; // 去重
-                        right--;
-                        left++;
+            //初始化
+            int left = 1;
+            int right = nums.length - 1;
+            int ans = Integer.MAX_VALUE;
+            if (nums[0]+nums[1]+nums[2]>target){
+                return  nums[0]+nums[1]+nums[2];
+            }else if (nums[right]+nums[right-1]+nums[right-2]<target){
+                return nums[right]+nums[right-1]+nums[right-2];
+            }else {
+                Label:
+                for (int i = 0; i < nums.length - 2; i++) {
+                    left = i+1;
+                    right = nums.length-1;
+                    if (nums[i]+nums[i+1]+nums[i+2]>target&&Math.abs(nums[i] + nums[i+1] + nums[i+2]-target)<Math.abs(ans-target)){
+                        ans = nums[i] + nums[i+1] + nums[i+2];
+                        break Label;
+                    }else {
+                    while (right>left){
+                        if (Math.abs(nums[right] + nums[i] + nums[left]-target)<Math.abs(ans-target)){
+                            ans = nums[right] + nums[i] + nums[left];
+                        }
+                        if (nums[right] + nums[i] + nums[left] >target ) {
+                            //xyz>target==>变小
+                            right--;
+                        }else if (nums[right] + nums[i] + nums[left] <target ) {
+                            //xyz<target==>变大
+                            left++;
+                        } else if (nums[right] + nums[i] + nums[left]  ==target ) {
+                            return target;
+                        }
                     }
-                }
+                }}
             }
-            return min;
+            return ans;
         }
     }
+
+    public static void main(String[] args) {
+        Solution solution = new Solution( );
+//        System.out.println(solution.threeSumClosest(new int[]{-1, 2, 1, -4}, 1));
+//        System.out.println(solution.threeSumClosest(new int[]{0,2,1,-3}, 1));
+        lableB:
+        for(int i=0;i<3;i++){
+            lableA:
+            for(int j=0;j<3;j++){
+                System.out.println(j);
+                if(j==1){
+                    break lableB;
+                }
+            }
+        }
+        System.out.println("over!");
+    }
+
+
 }
