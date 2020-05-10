@@ -7,6 +7,8 @@ public class _0278 {
      /* The isBadVersion API is defined in the parent class VersionControl.
       boolean isBadVersion(int version); */
 
+    /**
+
     static public class Solution extends VersionControl {
         public int firstBadVersion(int n) {
             return find(1,n);
@@ -24,5 +26,5 @@ public class _0278 {
             return -1;
         }
     }
-
+     */
 }
