@@ -2,22 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="977b8263-b557-40f0-acc3-227f66a942be" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/cmcandy/solutions/_0033.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/cmcandy/solutions/_0034.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/cmcandy/solutions/_0036.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/cmcandy/solutions/_0044.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/cmcandy/solutions/_0044_2.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/cmcandy/solutions/_0044_3.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/cmcandy/solutions/_0053.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/cmcandy/solutions/_0053_2.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/cmcandy/solutions/_0121.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/cmcandy/solutions/_0121_2.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/cmcandy/solutions/_0122.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/cmcandy/solutions/_0123.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/cmcandy/solutions/_0188.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/cmcandy/solutions/_0038.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/cmcandy/solutions/_0039.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/cmcandy/solutions/_0040.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/cmcandy/solutions/_0062.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/cmcandy/solutions/_0063.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/cmcandy/solutions/_0032.java" afterPath="$PROJECT_DIR$/src/cmcandy/solutions/_0032.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/cmcandy/solutions/_0278.java" afterPath="$PROJECT_DIR$/src/cmcandy/solutions/_0278.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -48,32 +38,92 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_0121.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="_0121.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/cmcandy/solutions/_0121.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="660">
-              <caret line="33" column="0" lean-forward="true" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+              <caret line="33" column="0" lean-forward="false" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_0121_2.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/cmcandy/solutions/_0121_2.java">
+      <file leaf-file-name="_0062.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/cmcandy/solutions/_0062.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="200">
+              <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_0063.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/cmcandy/solutions/_0063.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="600">
-              <caret line="30" column="5" lean-forward="false" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
+              <caret line="30" column="26" lean-forward="false" selection-start-line="30" selection-start-column="26" selection-end-line="30" selection-end-column="26" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_0044_2.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/cmcandy/solutions/_0044_2.java">
+      <file leaf-file-name="_0038.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/cmcandy/solutions/_0038.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="80">
-              <caret line="4" column="6" lean-forward="false" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
+            <state relative-caret-position="160">
+              <caret line="8" column="11" lean-forward="false" selection-start-line="8" selection-start-column="11" selection-end-line="31" selection-end-column="5" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_0039.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/cmcandy/solutions/_0039.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="371">
+              <caret line="35" column="25" lean-forward="false" selection-start-line="35" selection-start-column="20" selection-end-line="35" selection-end-column="25" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_0040.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/cmcandy/solutions/_0040.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="175">
+              <caret line="36" column="39" lean-forward="false" selection-start-line="36" selection-start-column="39" selection-end-line="36" selection-end-column="39" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ArrayList.java" pinned="false" current-in-tab="false">
+        <entry file="jar://D:/IDEInstall/jdk1.8/src.zip!/java/util/ArrayList.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="71">
+              <caret line="434" column="0" lean-forward="false" selection-start-line="434" selection-start-column="0" selection-end-line="434" selection-end-column="0" />
+              <folding>
+                <element signature="e#15586#15587#0" expanded="true" />
+                <element signature="e#15631#15632#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ArrayDeque.java" pinned="false" current-in-tab="false">
+        <entry file="jar://D:/IDEInstall/jdk1.8/src.zip!/java/util/ArrayDeque.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="13140">
+              <caret line="723" column="27" lean-forward="false" selection-start-line="723" selection-start-column="19" selection-end-line="723" selection-end-column="27" />
+              <folding>
+                <element signature="e#6627#6628#0" expanded="true" />
+                <element signature="e#6668#6669#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -81,58 +131,8 @@
       <file leaf-file-name="_0044_3.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/cmcandy/solutions/_0044_3.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="9" column="11" lean-forward="false" selection-start-line="9" selection-start-column="11" selection-end-line="50" selection-end-column="5" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_0053.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/cmcandy/solutions/_0053.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="24" column="5" lean-forward="true" selection-start-line="6" selection-start-column="4" selection-end-line="24" selection-end-column="5" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_0123.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/cmcandy/solutions/_0123.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="680">
-              <caret line="35" column="38" lean-forward="false" selection-start-line="35" selection-start-column="38" selection-end-line="35" selection-end-column="38" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_0044.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/cmcandy/solutions/_0044.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="6" column="8" lean-forward="false" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_0188.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/cmcandy/solutions/_0188.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="860">
-              <caret line="43" column="5" lean-forward="false" selection-start-line="43" selection-start-column="5" selection-end-line="43" selection-end-column="5" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_0122.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/cmcandy/solutions/_0122.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="440">
-              <caret line="22" column="9" lean-forward="false" selection-start-line="7" selection-start-column="7" selection-end-line="22" selection-end-column="9" />
+            <state relative-caret-position="220">
+              <caret line="32" column="0" lean-forward="true" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -188,12 +188,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/cmcandy/solutions/_0009.java" />
-        <option value="$PROJECT_DIR$/src/cmcandy/solutions/_0008.java" />
-        <option value="$PROJECT_DIR$/src/cmcandy/solutions/_0010_2.java" />
-        <option value="$PROJECT_DIR$/src/cmcandy/solutions/_0010.java" />
-        <option value="$PROJECT_DIR$/src/cmcandy/solutions/_0013.java" />
-        <option value="$PROJECT_DIR$/src/cmcandy/solutions/_0014.java" />
         <option value="$PROJECT_DIR$/src/cmcandy/solutions/_0011.java" />
         <option value="$PROJECT_DIR$/src/cmcandy/solutions/_0012.java" />
         <option value="$PROJECT_DIR$/src/cmcandy/solutions/_0015.java" />
@@ -239,6 +233,12 @@
         <option value="$PROJECT_DIR$/src/cmcandy/solutions/_0044_3.java" />
         <option value="$PROJECT_DIR$/src/cmcandy/solutions/_0044_2.java" />
         <option value="$PROJECT_DIR$/src/cmcandy/solutions/_0044.java" />
+        <option value="$PROJECT_DIR$/src/cmcandy/solutions/_0068.java" />
+        <option value="$PROJECT_DIR$/src/cmcandy/solutions/_0062.java" />
+        <option value="$PROJECT_DIR$/src/cmcandy/solutions/_0063.java" />
+        <option value="$PROJECT_DIR$/src/cmcandy/solutions/_0038.java" />
+        <option value="$PROJECT_DIR$/src/cmcandy/solutions/_0039.java" />
+        <option value="$PROJECT_DIR$/src/cmcandy/solutions/_0040.java" />
       </list>
     </option>
   </component>
@@ -272,10 +272,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1912" />
-    <option name="y" value="-852" />
-    <option name="width" value="1096" />
-    <option name="height" value="1896" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -295,9 +295,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="Scratches" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -352,6 +349,9 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -375,15 +375,15 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application._0044_3">
-    <configuration default="false" name="_0034" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Application._0040">
+    <configuration default="false" name="_0062" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="cmcandy.solutions.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="cmcandy.solutions._0034" />
+      <option name="MAIN_CLASS_NAME" value="cmcandy.solutions._0062" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -396,14 +396,14 @@
       <envs />
       <method />
     </configuration>
-    <configuration default="false" name="_0036" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="_0063" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="cmcandy.solutions.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="cmcandy.solutions._0036" />
+      <option name="MAIN_CLASS_NAME" value="cmcandy.solutions._0063" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -416,14 +416,14 @@
       <envs />
       <method />
     </configuration>
-    <configuration default="false" name="_0044" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="_0038" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="cmcandy.solutions.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="cmcandy.solutions._0044" />
+      <option name="MAIN_CLASS_NAME" value="cmcandy.solutions._0038" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -436,14 +436,14 @@
       <envs />
       <method />
     </configuration>
-    <configuration default="false" name="_0044_2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="_0039" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="cmcandy.solutions.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="cmcandy.solutions._0044_2" />
+      <option name="MAIN_CLASS_NAME" value="cmcandy.solutions._0039" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -456,14 +456,14 @@
       <envs />
       <method />
     </configuration>
-    <configuration default="false" name="_0044_3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="_0040" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="cmcandy.solutions.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="cmcandy.solutions._0044_3" />
+      <option name="MAIN_CLASS_NAME" value="cmcandy.solutions._0040" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -864,19 +864,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application._0034" />
-      <item index="1" class="java.lang.String" itemvalue="Application._0036" />
-      <item index="2" class="java.lang.String" itemvalue="Application._0044" />
-      <item index="3" class="java.lang.String" itemvalue="Application._0044_2" />
-      <item index="4" class="java.lang.String" itemvalue="Application._0044_3" />
+      <item index="0" class="java.lang.String" itemvalue="Application._0062" />
+      <item index="1" class="java.lang.String" itemvalue="Application._0063" />
+      <item index="2" class="java.lang.String" itemvalue="Application._0038" />
+      <item index="3" class="java.lang.String" itemvalue="Application._0039" />
+      <item index="4" class="java.lang.String" itemvalue="Application._0040" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application._0044_3" />
-        <item index="1" class="java.lang.String" itemvalue="Application._0044_2" />
-        <item index="2" class="java.lang.String" itemvalue="Application._0044" />
-        <item index="3" class="java.lang.String" itemvalue="Application._0036" />
-        <item index="4" class="java.lang.String" itemvalue="Application._0034" />
+        <item index="0" class="java.lang.String" itemvalue="Application._0040" />
+        <item index="1" class="java.lang.String" itemvalue="Application._0039" />
+        <item index="2" class="java.lang.String" itemvalue="Application._0038" />
+        <item index="3" class="java.lang.String" itemvalue="Application._0063" />
+        <item index="4" class="java.lang.String" itemvalue="Application._0062" />
       </list>
     </recent_temporary>
   </component>
@@ -915,15 +915,18 @@
       <workItem from="1588987544282" duration="21000" />
       <workItem from="1589007281800" duration="14348000" />
       <workItem from="1589087361346" duration="4370000" />
-      <workItem from="1589103644224" duration="7202000" />
+      <workItem from="1589103644224" duration="7855000" />
+      <workItem from="1589161109728" duration="4663000" />
+      <workItem from="1589260392725" duration="3074000" />
+      <workItem from="1589348956359" duration="8157000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="177160000" />
+    <option name="totallyTimeSpent" value="193707000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1912" y="-852" width="1096" height="1896" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -935,20 +938,20 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995737" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26916426" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329683" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35083798" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1402715" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.13407822" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26930502" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15458423" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24945927" sideWeight="0.49590644" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5982709" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.49720672" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -1309,69 +1312,56 @@
           <properties />
           <option name="timeStamp" value="317" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/cmcandy/solutions/_0062.java</url>
+          <line>35</line>
+          <properties />
+          <option name="timeStamp" value="319" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/cmcandy/solutions/_0063.java</url>
+          <line>46</line>
+          <properties />
+          <option name="timeStamp" value="320" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/cmcandy/solutions/_0039.java</url>
+          <line>20</line>
+          <properties />
+          <option name="timeStamp" value="323" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/cmcandy/solutions/_0039.java</url>
+          <line>46</line>
+          <properties />
+          <option name="timeStamp" value="324" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/cmcandy/solutions/_0040.java</url>
+          <line>48</line>
+          <properties />
+          <option name="timeStamp" value="325" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/cmcandy/solutions/_0040.java</url>
+          <line>30</line>
+          <properties />
+          <option name="timeStamp" value="329" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="318" />
+      <option name="time" value="330" />
     </breakpoint-manager>
-    <watches-manager />
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="path" language="JAVA" />
+      </configuration>
+    </watches-manager>
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://D:/IDEInstall/jdk1.8/src.zip!/java/util/Arrays.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="74540">
-          <caret line="3798" column="26" lean-forward="false" selection-start-line="3798" selection-start-column="22" selection-end-line="3798" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cmcandy/solutions/_0014.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="19" column="43" lean-forward="false" selection-start-line="19" selection-start-column="43" selection-end-line="19" selection-end-column="43" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/IDEInstall/jdk1.8/src.zip!/java/lang/StrictMath.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1360">
-          <caret line="631" column="31" lean-forward="false" selection-start-line="631" selection-start-column="25" selection-end-line="631" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cmcandy/solutions/_0011.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="660">
-          <caret line="33" column="5" lean-forward="false" selection-start-line="17" selection-start-column="11" selection-end-line="33" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/IDEInstall/jdk1.8/src.zip!/java/lang/Math.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="151">
-          <caret line="643" column="47" lean-forward="false" selection-start-line="643" selection-start-column="47" selection-end-line="643" selection-end-column="47" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cmcandy/solutions/_0069.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="580">
-          <caret line="29" column="5" lean-forward="false" selection-start-line="6" selection-start-column="11" selection-end-line="29" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cmcandy/solutions/_0070.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="8" column="11" lean-forward="false" selection-start-line="8" selection-start-column="11" selection-end-line="39" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/cmcandy/solutions/_0017.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1420">
@@ -1528,7 +1518,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="12120">
           <caret line="657" column="0" lean-forward="false" selection-start-line="657" selection-start-column="0" selection-end-line="657" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1675,7 +1664,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/cmcandy/solutions/_0123.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="680">
+        <state relative-caret-position="700">
           <caret line="35" column="38" lean-forward="false" selection-start-line="35" selection-start-column="38" selection-end-line="35" selection-end-column="38" />
           <folding />
         </state>
@@ -1697,18 +1686,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/cmcandy/solutions/_0044_3.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="9" column="11" lean-forward="false" selection-start-line="9" selection-start-column="11" selection-end-line="50" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/cmcandy/solutions/_0053.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="480">
-          <caret line="24" column="5" lean-forward="true" selection-start-line="6" selection-start-column="4" selection-end-line="24" selection-end-column="5" />
+          <caret line="24" column="5" lean-forward="false" selection-start-line="6" selection-start-column="4" selection-end-line="24" selection-end-column="5" />
           <folding />
         </state>
       </provider>
@@ -1724,8 +1705,82 @@
     <entry file="file://$PROJECT_DIR$/src/cmcandy/solutions/_0121.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="660">
-          <caret line="33" column="0" lean-forward="true" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+          <caret line="33" column="0" lean-forward="false" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cmcandy/solutions/_0062.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cmcandy/solutions/_0063.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="30" column="26" lean-forward="false" selection-start-line="30" selection-start-column="26" selection-end-line="30" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cmcandy/solutions/_0038.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="8" column="11" lean-forward="false" selection-start-line="8" selection-start-column="11" selection-end-line="31" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/IDEInstall/jdk1.8/src.zip!/java/util/ArrayDeque.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="13140">
+          <caret line="723" column="27" lean-forward="false" selection-start-line="723" selection-start-column="19" selection-end-line="723" selection-end-column="27" />
+          <folding>
+            <element signature="e#6627#6628#0" expanded="true" />
+            <element signature="e#6668#6669#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cmcandy/solutions/_0044_3.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="32" column="0" lean-forward="true" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cmcandy/solutions/_0039.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="371">
+          <caret line="35" column="25" lean-forward="false" selection-start-line="35" selection-start-column="20" selection-end-line="35" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/IDEInstall/jdk1.8/src.zip!/java/util/ArrayList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="71">
+          <caret line="434" column="0" lean-forward="false" selection-start-line="434" selection-start-column="0" selection-end-line="434" selection-end-column="0" />
+          <folding>
+            <element signature="e#15586#15587#0" expanded="true" />
+            <element signature="e#15631#15632#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cmcandy/solutions/_0040.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="36" column="39" lean-forward="false" selection-start-line="36" selection-start-column="39" selection-end-line="36" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
