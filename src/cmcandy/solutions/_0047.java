@@ -1,9 +1,8 @@
 package cmcandy.solutions;
 
+import java.awt.*;
 import java.sql.Array;
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.HashMap;
+import java.util.*;
 import java.util.List;
 
 /**
@@ -11,44 +10,40 @@ import java.util.List;
  */
 public class _0047 {
     static class Solution {
-        private HashMap<Integer,Integer> hashMap = new HashMap<>();
         public List<List<Integer>> permuteUnique(int[] nums) {
-            ArrayList<Integer> list = new ArrayList<>();
-            for(int i =0;i<nums.length;i++){
-                list.add(nums[i]);
-            }
-            List<List<Integer>> res = new ArrayList<>();
-            DFS(res,list,new ArrayList<>());
+            List<List<Integer>> res = new ArrayList<>( );
+            Arrays.sort(nums);
+            DFS(res, nums, new ArrayDeque<>( ), new boolean[nums.length]);
             return res;
         }
 
-        public void DFS(List<List<Integer>> res,List<Integer> nums,ArrayList<Integer> arrange){
-            if (nums.size()==0){
-                ArrayList<Integer> tmp = new ArrayList<>();
-                tmp.addAll(arrange);
-                if (!res.contains(tmp))
-                res.add(tmp);
+        public void DFS(List<List<Integer>> res, int[] nums, Deque<Integer> arrange, boolean[] isVisited) {
+            if (nums.length == arrange.size( )) {
+                if (!res.contains(arrange))
+                res.add(new ArrayList<>(arrange));
                 return;
             }
 
-            List tmp = new ArrayList();
-            tmp.addAll(nums);
-            for (int i =0;i<nums.size();i++){
-                arrange.add(nums.get(i));
-                tmp.remove(i);
-                DFS(res,tmp,arrange);
-                tmp.add(i,nums.get(i));
-//                tmp.clear();
-//                tmp.addAll(nums);
-                arrange.remove(arrange.size()-1);
+            for (int i = 0; i < nums.length; i++) {
+                //访问过
+                if (!isVisited[i]) {
+                    //第一个，或者相同但是前一个被访问过，或者不同
+                    if (i == 0 || (nums[i]==nums[i-1]&&isVisited[i - 1])||nums[i]!=nums[i-1]) {
+                        arrange.add(nums[i]);
+                        isVisited[i] = true;
+                        DFS(res, nums, arrange, isVisited);
+                        arrange.removeLast( );
+                        isVisited[i] = false;
+                    }
+                }
             }
         }
     }
 
     public static void main(String[] args) {
-        Solution solution = new Solution();
-        solution.permuteUnique(new int[]{1,1,2});
-        Arrays.asList(new int[]{1,1,2});
-        System.out.println( "aaa");
+        Solution solution = new Solution( );
+        solution.permuteUnique(new int[]{3,3,0,3});
+        Arrays.asList(new int[]{1, 1, 2});
+        System.out.println("aaa");
     }
 }
