@@ -29,7 +29,4 @@ public class _1200 {
             return res;
         }
     }
-        public static void main(String[] args) {
-
-        }
     }
