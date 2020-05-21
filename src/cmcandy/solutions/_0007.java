@@ -28,5 +28,6 @@ public class _0007 {
 //        System.out.println((9646324351>(Math.pow(2,31)-1)) );
         System.out.println();
         System.out.println(solution.reverse(123));
+        
     }
 }

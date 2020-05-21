@@ -6,37 +6,24 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Debug (Launch) with Arguments Prompt",
+            "request": "launch",
+            "mainClass": "",
+            "args": "${command:SpecifyProgramArgs}"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)",
+            "request": "launch",
+            "mainClass": ""
+        },
+        
+        {
+            "type": "java",
             "name": "Debug (Launch) - Current File",
             "request": "launch",
             "mainClass": "${file}"
-        },
-        {
-            "type": "java",
-            "name": "Debug (Launch)-_0001<leetcode_25cee9a3>",
-            "request": "launch",
-            "mainClass": "cmcandy.solutions._0001",
-            "projectName": "leetcode_25cee9a3"
-        },
-        {
-            "type": "java",
-            "name": "Debug (Launch)-_0004<leetcode_25cee9a3>",
-            "request": "launch",
-            "mainClass": "cmcandy.solutions._0004",
-            "projectName": "leetcode_25cee9a3"
-        },
-        {
-            "type": "java",
-            "name": "Debug (Launch)-_0005<leetcode_25cee9a3>",
-            "request": "launch",
-            "mainClass": "cmcandy.solutions._0005",
-            "projectName": "leetcode_25cee9a3"
-        },
-        {
-            "type": "java",
-            "name": "Debug (Launch)-_0006<leetcode_25cee9a3>",
-            "request": "launch",
-            "mainClass": "cmcandy.solutions._0006",
-            "projectName": "leetcode_25cee9a3"
         }
+        
     ]
 }
