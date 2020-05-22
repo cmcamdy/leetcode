@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - _0090",
+            "request": "launch",
+            "mainClass": "cmcandy.solutions._0090",
+            "projectName": "leetcode_25cee9a3"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - _0078",
+            "request": "launch",
+            "mainClass": "cmcandy.solutions._0078",
+            "projectName": "leetcode_25cee9a3"
+        },
+        {
+            "type": "java",
             "name": "Debug (Launch) with Arguments Prompt",
             "request": "launch",
             "mainClass": "",
@@ -17,13 +31,11 @@
             "request": "launch",
             "mainClass": ""
         },
-        
         {
             "type": "java",
             "name": "Debug (Launch) - Current File",
             "request": "launch",
             "mainClass": "${file}"
         }
-        
     ]
 }
