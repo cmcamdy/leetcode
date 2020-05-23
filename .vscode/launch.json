@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - _0212",
+            "request": "launch",
+            "mainClass": "cmcandy.solutions._0212",
+            "projectName": "leetcode_25cee9a3"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - _0090",
             "request": "launch",
             "mainClass": "cmcandy.solutions._0090",
