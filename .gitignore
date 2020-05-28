@@ -10,6 +10,12 @@
 # Mobile Tools for Java (J2ME)
 .mtj.tmp/
 
+# 这4个文件不需要提交
+.vscode
+.idea
+out
+leetcode.iml
+
 # Package Files #
 *.jar
 *.war
