@@ -1,9 +1,0 @@
-{
-    "code-runner.runInTerminal": true,
-    "code-runner.executorMap":{
-        "java":"cd $dir && javac -d $dirWithoutTrailingSlash -encoding UTF-8 $fileName && java $dirWithoutTrailingSlash/out2/$fileNameWithoutExt",
-    },
-    "code-runner.ignoreSelection": true,
-
-    // "files.autoGuessEncoding": true,
-}
