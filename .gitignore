@@ -15,6 +15,7 @@
 .idea
 out
 leetcode.iml
+.gitignore
 
 # Package Files #
 *.jar
