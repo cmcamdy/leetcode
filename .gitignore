@@ -16,7 +16,7 @@
 out
 leetcode.iml
 .gitignore
-*.exe
+# *.exe
 # Package Files #
 *.jar
 *.war
