@@ -36,8 +36,8 @@ public class _0209 {
 
     public static void main(String[] args) {
         Solution solution = new Solution( );
-        System.out.println(solution.minSubArrayLen(11, new int[]{1, 2, 3, 4, 5}));
-        System.out.println(solution.minSubArrayLen(4, new int[]{1, 4, 4}));
+//        System.out.println(solution.minSubArrayLen(11, new int[]{1, 2, 3, 4, 5}));
+//        System.out.println(solution.minSubArrayLen(4, new int[]{1, 4, 4}));
 //        System.out.println(solution.minSubArrayLen(7, new int[]{2, 3, 1, 2, 4, 3}));
     }
 }
