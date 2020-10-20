@@ -9,7 +9,6 @@ class Solution
 public:
     int strStr(string haystack, string needle)
     {
-        int i = 
         if (needle.empty())
             return 0;
         int i = 0, m = haystack.size();

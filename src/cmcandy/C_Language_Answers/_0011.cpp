@@ -26,12 +26,3 @@ public:
         return area;
     }
 };
-
-int main()
-{
-    Solution solution;
-    int data[] = {1,8,6,2,5,4,8,3,7};
-    vector<int> nums1(data,data+7), nums2;
-    cout<<nums1;
-    cout << solution.maxArea(nums1) << endl;
-}
