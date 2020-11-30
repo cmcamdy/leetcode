@@ -12,65 +12,61 @@ struct ListNode
     ListNode(int x, ListNode *next) : val(x), next(next) {}
 };
 
+/**
+ * Definition for singly-linked list.
+ * struct ListNode {
+ *     int val;
+ *     ListNode *next;
+ *     ListNode() : val(0), next(nullptr) {}
+ *     ListNode(int x) : val(x), next(nullptr) {}
+ *     ListNode(int x, ListNode *next) : val(x), next(next) {}
+ * };
+ */
 class Solution
 {
 public:
     void reorderList(ListNode *head)
     {
-        vector<ListNode &> li;
-        ListNode *tmp = head;
-        while (tmp != NULL)
+        ListNode *slow, *fast, *pre;
+        if (head == NULL || head->next == NULL)
+            return;
+        fast = head->next->next;
+        pre = head;
+        while (fast != NULL && fast->next != NULL)
         {
-            //这里出了问题，好像不能这么初始化
-            li.push_back(*tmp);
-            tmp = tmp->next;
+            pre = pre->next;
+            fast = fast->next->next;
         }
-        
-        
-        tmp = head;
-        int len = li.size();
-        for (int i = 0; i < len / 2; i++)
+        slow = pre->next;
+        pre->next = NULL;
+        ListNode *tmp1, *tmp2;
+        tmp1 = slow;
+        slow = slow->next;
+        tmp1->next = NULL;
+        while (slow != NULL)
         {
-            if (i == len - 1 - i)
+            //保存下一个节点的地址
+            tmp2 = slow->next;
+            slow->next = tmp1;
+            tmp1 = slow;
+            slow = tmp2;
+        }
+        slow = head;
+        while (slow != NULL)
+        {
+            tmp2 = tmp1;
+            tmp1 = tmp1->next;
+            tmp2->next = slow->next;
+            slow->next = tmp2;
+            if (tmp2->next == NULL && tmp1 != NULL)
             {
-                *tmp->next = li[i];
+                tmp2->next = tmp1;
                 break;
-            }
-            if (i != 0)
-            {
-                *tmp->next = li[i];
-                tmp = tmp->next;
-            }
-            *tmp->next = li[len - 1];
-            tmp = tmp->next;
-        }
-    }
-    ListNode *createList(vector<int> nums)
-    {
-        int len = nums.size();
-        ListNode *head;
-        ListNode *tmp;
-        for (int i = 0; i < len; i++)
-        {
-            if (i == 0)
-            {
-                tmp = new ListNode(nums[i]);
-                head = tmp;
             }
             else
             {
-                tmp->next = new ListNode(nums[i]);
-                tmp = tmp->next;
+                slow = tmp2->next;
             }
-            // cout<<tmp->val<<endl;
         }
-        return head;
     }
 };
-int main()
-{
-    Solution s;
-    // [1,2,3,4]
-    ListNode *head = s.createList({1, 2, 3, 4});
-    s.reorderList(head);
-}
