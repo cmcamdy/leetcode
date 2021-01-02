@@ -14,9 +14,7 @@ public:
         // else if(len==2) return min(cost[0],cost[1]);
         //填数组
         for (int i = 2; i < len; i++)
-        {
             cost[i] += min(cost[i - 1], cost[i - 2]);
-        }
         //决定方案
         return min(cost[len - 2], cost[len - 1]);
     }
