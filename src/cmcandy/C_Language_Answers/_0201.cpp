@@ -11,5 +11,5 @@ public:
 int main()
 {
     cout<<(7&5)<<endl;
-    return 0;
+    return 1;
 }
