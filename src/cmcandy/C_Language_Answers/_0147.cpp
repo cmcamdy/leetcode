@@ -44,7 +44,7 @@ public:
                 tmp3->next = tmp2;
                 head = tmp3;
             }
-            else if (tmp1 == head||tmp1->val<tmp1->next->val)
+            else if (tmp1 == head||tmp1->val<=tmp1->next->val)
             {
                 tmp1 = tmp1->next;
             }

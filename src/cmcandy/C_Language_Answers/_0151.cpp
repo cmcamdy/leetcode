@@ -43,7 +43,8 @@ public:
             if (s[i] != ' ')
             {
                 //如果不是‘ ’，那么说明到底了，截断后面部分
-                return s.substr(0, i + 1);
+                s.erase(s.begin() + i + 1, s.end());
+                break;
             }
         }
         return s;
