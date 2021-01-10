@@ -78,7 +78,7 @@ int main(int argc, char const *argv[])
     Solution s;
     // vector<int> l{-1, 5, 3, 4, 0};
     // vector<int> l{3,2,4};
-    vector<int> l{0,0,0,0,0,0,0,0,0,0};
+    vector<int> l(10,0);
     int len = l.size();
     ListNode *head = new ListNode(l[len - 1]);
     for (int i = len - 2; i >= 0; i--)
