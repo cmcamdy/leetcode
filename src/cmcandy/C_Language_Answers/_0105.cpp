@@ -30,17 +30,15 @@ public:
             hash[inorder[i]] = i;
         return build(preorder, inorder, 0, preorder.size() - 1, 0, preorder.size() - 1);
     }
-    // @brief: 构建二叉树
-    // @pram: preorder, inorder: 前序遍历与中序遍历
     //        pl, pr : 当前前序遍历的区间
     //        il, ir : 当前中序遍历的区间
-    // @ret: 构建的根节点
     TreeNode *build(vector<int> &preorder, vector<int> &inorder, int pl, int pr, int il, int ir)
     {
         if (pl > pr)
             return nullptr;
         TreeNode *root = new TreeNode(preorder[pl]);
-        int k = hash[root->val]; // 根节点在中序遍历的位置
+        // 根节点在中序遍历的位置
+        int k = hash[root->val]; 
         root->left = build(preorder, inorder, pl + 1, k + pl - il, il, k - 1);
         root->right = build(preorder, inorder, k + pr - ir + 1, pr, k + 1, ir);
         return root;
