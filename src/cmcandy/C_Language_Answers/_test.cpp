@@ -2,18 +2,12 @@
 #include <vector>
 #include <string>
 
-using namespace std;
+using namespace::std;
 
-int main()
+int main(int argc, char const *argv[])
 {
-    // vector<string> msg {"Hello", "C++", "World", "from", "VS Code", "and the C++ extension!"};
-    
-    // for (const string& word : msg)
-    // {
-    //     cout << word << " "<<endl;
-    // }
-    // cout << endl;
-
-    int cod = 2;
-    cout<<"cod="<< ~cod<<endl;
+    vector<int> dp;
+    dp.push_back(1);
+    cout<<"helloworld";
+    return 1;
 }
