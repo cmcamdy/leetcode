@@ -11,8 +11,8 @@ public:
         int len = nums.size();
         if (len == 0)
             return 0;
+        int res = 0;
         vector<vector<int>> dp(len, vector<int>(len, 1));
-        int now = 1, res = 1;
         for (int i = 1; i < len; i++)
         {
             dp[i][0] = nums[i]>nums[0]?2:1;
@@ -24,8 +24,9 @@ public:
                 else
                     dp[i][j] = dp[i][j - 1];
             }
+            res = max(res,dp[i][i]);
         }
-        return dp[len - 1][len - 1];
+        return res;
     }
 };
 int main(int argc, char const *argv[])
