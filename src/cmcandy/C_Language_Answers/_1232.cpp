@@ -14,25 +14,20 @@ public:
         if (coordinates[1][0] == coordinates[0][0])
         {
             for (int i = 2; i < len; i++)
-            {
                 if (coordinates[0][0] != coordinates[i][0])
                     return false;
-            }
-            return true;
         }
         else
         {
+            //非垂线
             //k=(y2-y1)/(x2-x1)
             float k = 1.0 * (coordinates[1][1] - coordinates[0][1]) / (coordinates[1][0] - coordinates[0][0]);
             //带入得b
             float b = coordinates[0][1] - k * coordinates[0][0];
-
             for (int i = 2; i < len; i++)
-            {
                 if (coordinates[i][1] * 1.0 != (k * coordinates[i][0] + b))
                     return false;
-            }
-            return true;
         }
+        return true;
     }
 };
