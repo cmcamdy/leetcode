@@ -43,7 +43,7 @@ public:
 
         for (int i = K - 2; i >= 0; i--)
         {
-            dp[i] = dp[i + 1] + (dp[i + 1] - dp[i + W+1]) / W;
+            dp[i] = dp[i + 1] + (dp[i + 1] - dp[i + W+ 1]) / W;
         }
         // float res = 0;
         // for(int i = K;i<=N; i++){
