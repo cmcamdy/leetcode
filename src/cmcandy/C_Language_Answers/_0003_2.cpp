@@ -8,6 +8,7 @@ class Solution
 public:
     int lengthOfLongestSubstring(string s)
     {
+        //本来想写个数组版，结果写了个Hash版的
         //初始化
         map<char,int> letter;
         int len = s.size();
