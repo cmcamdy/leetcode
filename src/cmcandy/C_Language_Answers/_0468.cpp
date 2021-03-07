@@ -11,9 +11,7 @@ public:
         //分为验证v4和v6两部分
         //0=4,1=6
         int mod = 0;
-
         int len = IP.size();
-
         if (len > 15)
             mod = 1;
         else if (len == 15)
@@ -43,7 +41,7 @@ public:
                     //数字不对的情况
                     return "Neither";
                 }
-                else if (IP[i] == '.' && (tmp > 255||IP[i-1]=='.'))
+                else if (IP[i] == '.' && (tmp > 255 || IP[i - 1] == '.'))
                 {
                     //数字过大
                     return "Neither";
@@ -53,7 +51,7 @@ public:
                     tmp = 0;
                     cp++;
                 }
-                else if (IP[i] == '0' && i < (len - 1) && IP[i + 1] != '.')
+                else if (IP[i] == '0' && tmp == 0 && i < (len - 1) && IP[i + 1] != '.')
                 {
                     //以0开头的情况
                     return "Neither";
@@ -64,30 +62,31 @@ public:
                     tmp = tmp * 10 + IP[i] - '0';
                 }
             }
-            return tmp > 255 || cp!=3 ||IP[len-1]=='.' ? "Neither" : "IPv4";
+            return tmp > 255 || cp != 3 || IP[len - 1] == '.' ? "Neither" : "IPv4";
         }
         else
         {
             int count = 0;
-            int cp=0;
+            int cp = 0;
             //IPV6
             for (int i = 0; i < len; i++)
             {
 
                 if (IP[i] == ':' && (count <= 0 || count > 4))
                     return "Neither";
-                else if (!(IP[i]==':'||(IP[i] >= '0' && IP[i] <= '9') || (IP[i] >= 'a' && IP[i] <= 'f') || IP[i] >= 'A' && IP[i] <= 'F'))
+                else if (!(IP[i] == ':' || (IP[i] >= '0' && IP[i] <= '9') || (IP[i] >= 'a' && IP[i] <= 'f') || IP[i] >= 'A' && IP[i] <= 'F'))
                     return "Neither";
                 else if (IP[i] == ':')
                 {
                     count = 0;
                     cp++;
                 }
-                else{
+                else
+                {
                     count++;
                 }
             }
-            return count > 4 || count<=0 || cp!=7 ? "Neither" : "IPv6";
+            return count > 4 || count <= 0 || cp != 7 ? "Neither" : "IPv6";
         }
     }
 };
