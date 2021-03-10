@@ -28,7 +28,7 @@ public:
         return true;
     }
     //分支回溯
-    vector<vector<string>> part(vector<vector<string>> last, string last_add, string s, int start)
+    vector<vector<string>> part(vector<vector<string>> last, string last_add, string &s, int start)
     {
         // 先更新last数组
         if (last_add != "")
@@ -48,11 +48,7 @@ public:
                 }
             }
         }
-        //如果拆到底了，就返回更新的last
-        if (start == s.size())
-        {
-            return last;
-        }
+        
 
         //如果没，则开启下一轮
         vector<vector<string>> res;
@@ -62,18 +58,17 @@ public:
             if (judge(s, start, i))
             {
                 //如果是则进入下一级
-                vector<vector<string>> tmp;
-                string t;
-                if (start == 0)
-                    t = s.substr(start, i + 1);
-                else
-                    t = s.substr(start, i);
-
-                tmp = part(last, t, s, i + 1);
+                vector<vector<string>> tmp = part(last, s.substr(start, i - start + 1), s, i + 1);
+                
                 //然后加入列表
                 res.insert(res.end(), tmp.begin(), tmp.end());
             }
             //不是则加长
+        }
+        //如果拆到底了，就返回更新的last
+        if (start == s.size())
+        {
+            return last;
         }
         return res;
     }
