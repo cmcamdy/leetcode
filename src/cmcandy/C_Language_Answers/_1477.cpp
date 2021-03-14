@@ -22,17 +22,21 @@ public:
         int sumr = arr[0];
         int suml = arr[len - 1];
         //true=左动
-        int lturn = 1,rturn=1,turn=1;
+        int lturn = 1, rturn = 1, turn = 1;
 
         while (left1 > border1 && right2 < border2)
-        {   
-            if(rturn==0&&lturn==1)  turn=0;
-            else if(rturn==1&&lturn==0)  turn=1;
-            else if(rturn==0&&lturn==0)  break;
+        {
+
+            if (rturn == 0 && lturn == 1)
+                turn = 0;
+            else if (rturn == 1 && lturn == 0)
+                turn = 1;
+            else if (rturn == 0 && lturn == 0)
+                break;
             // else if(lturn==1) turn=0;
 
             //如果mr>=ml 动右边
-            if (turn==1)
+            if (turn == 1)
             {
                 if (sumr < target)
                 {
@@ -45,10 +49,11 @@ public:
                     {
                         mr = min(mr, right2 - right1 + 1);
                         border1 = right2;
-                        turn=0;
+                        if (mr < ml)
+                            turn = 0;
                     }
                     sumr -= arr[right1];
-                    
+
                     right1++;
                     if (right2 < right1)
                     {
@@ -56,18 +61,20 @@ public:
                         sumr += arr[right1];
                     }
                 }
-                if(right2>border2-1||right1>border2-1){
+                if (right2 > border2 - 1 || right1 > border2 - 1)
+                {
                     //触碰到边界
-                    rturn=0;
+                    rturn = 0;
                     right1 = border1;
                     right2 = border1;
                 }
             }
             //如果mr<ml 动左边
-            else if(turn == 0){
+            else if (turn == 0)
+            {
                 if (suml < target)
                 {
-                    
+
                     left1--;
                     suml += arr[left1];
                 }
@@ -77,10 +84,11 @@ public:
                     {
                         ml = min(ml, left2 - left1 + 1);
                         border2 = left1;
-                        turn=1;
+                        if (ml < mr)
+                            turn = 1;
                     }
                     suml -= arr[left2];
-                    
+
                     left2--;
                     if (left2 < left1)
                     {
@@ -88,16 +96,17 @@ public:
                         suml += arr[left1];
                     }
                 }
-                if(left1<border1+1||left2<border1+1){
+                if (left1 < border1 + 1 || left2 < border1 + 1)
+                {
                     //触碰到边界
-                    lturn=0;
+                    lturn = 0;
                     left1 = border2;
                     left2 = border2;
                 }
             }
         }
         // return m2 < len ? m1 + m2 : -1;
-        return border2>border1&&ml<len&&mr<len?mr+ml:-1;
+        return ml < len && mr < len ? mr + ml : -1;
     }
 };
 int main(int argc, char const *argv[])
@@ -110,7 +119,7 @@ int main(int argc, char const *argv[])
     // vector<int> arr{3,1,1,1,5,1,2,1};//3
     // vector<int> arr{1,2,2,3,2,6,7,2,1,4,8};//5
     // vector<int> arr{31,1,1,18,15,3,15,14};//33
-    vector<int> arr{2,2,4,4,4,4,4,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1};//20
+    vector<int> arr{2, 2, 4, 4, 4, 4, 4, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1}; //20
     s.minSumOfLengths(arr, 20);
     return 0;
 }
