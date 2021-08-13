@@ -35,6 +35,7 @@ int main(int argc, char const *argv[])
 {
     Solution s;
     vector<int> nums = {3, 2, 4};
-    s.twoSum(nums, 6);
+    vector<int> res =  s.twoSum(nums, 6);
+    cout<<res[0]<<endl;
     return 0;
 }
