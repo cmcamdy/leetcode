@@ -2,20 +2,22 @@
 #include <vector>
 using namespace ::std;
 
-class sloution
-{
-public:
-    void test()
-    {
-        cout<<"helloworld";
-        return;
-    }
-};
+void test(int count[]){
+    
+}
+void test2(int* count){
+    cout<<count[99];
+}
+
 
 int main(int argc, char const *argv[])
 {
-    cout << 'a' - 1;
-    sloution s;
-    s.test();
+    int a = 0;
+    int count[100];
+    
+    test(count);
+    test2(count);
+
+    cout << "helloworld" <<endl;
     return 0;
 }

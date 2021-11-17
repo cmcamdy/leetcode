@@ -38,6 +38,6 @@ int main(int argc, char const *argv[])
     Solution s;
     // s.lengthOfLongestSubstring("   ");
     s.lengthOfLongestSubstring("aabaab!bb");
-    
+    cout<<s.lengthOfLongestSubstring("aabaab!bb");
     return 0;
 }

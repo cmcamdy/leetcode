@@ -32,4 +32,5 @@ public:
         left->next = left->next->next;
         return head;
     }
+   
 };

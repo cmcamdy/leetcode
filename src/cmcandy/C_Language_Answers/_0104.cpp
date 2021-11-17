@@ -24,3 +24,19 @@ public:
             return max(maxDepth(root->left), maxDepth(root->right)) + 1;
     }
 };
+
+// void test(TreeNode *root){
+//     TreeNode node = TreeNode(2);
+//     root = &node;
+//     cout<<(root->val)<<endl;
+// }
+// int main(int argc, char const *argv[])
+// {
+//     TreeNode node = TreeNode(1);
+//     TreeNode* point = &node;
+//     cout<<(point->val)<<endl;
+
+//     test(point);
+//     cout<<(point->val);
+//     return 0;
+// }
