@@ -21,7 +21,7 @@ public:
             }
             if (m.find(mask[i]) != m.end())
             {
-                m[mask[i]] = max(words[i].size(), m[mask[i]]);
+                m[mask[i]] = words[i].size() > m[mask[i]] ? words[i].size() : m[mask[i]];
             }
             else
             {
@@ -32,7 +32,7 @@ public:
         int res = 0;
         for (iti = m.begin(); iti != m.end(); ++iti)
         {
-            for (itj = m.find(iti->first); itj != m.end(); ++itj)
+            for (itj = m.find(iti->first) ; itj != m.end(); ++itj)
             {
                 if ((iti->first & itj->first) == 0)
                 {
