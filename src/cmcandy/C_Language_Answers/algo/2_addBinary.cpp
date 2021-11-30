@@ -23,7 +23,6 @@ string addBinary(string a, string b)
     {
        result = to_string(carry) + result;
     }
-    
     return result;
 }
 
