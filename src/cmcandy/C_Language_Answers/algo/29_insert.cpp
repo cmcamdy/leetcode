@@ -9,7 +9,7 @@ public:
     Node(int _val)
     {
         val = _val;
-        next = nullptrptr;
+        next = nullptr;
     }
 
     Node(int _val, Node *_next)
@@ -29,7 +29,7 @@ public:
 
     Node(int _val) {
         val = _val;
-        next = nullptrptr;
+        next = nullptr;
     }
 
     Node(int _val, Node* _next) {
@@ -44,7 +44,7 @@ class Solution
 public:
     Node *insert(Node *head, int insertVal)
     {
-        if (head == NULL)
+        if (head == nullptr)
         {
             head = new Node(insertVal);
             head->next = head;
