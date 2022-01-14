@@ -41,7 +41,6 @@ public:
                 heap[childIndex] = tmp;
                 index = childIndex;
             }
-            // }
         }
     }
     vector<int> topKFrequent(vector<int> &nums, int k)
