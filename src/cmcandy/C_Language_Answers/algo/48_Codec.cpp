@@ -43,14 +43,7 @@ public:
         return parse(data, ptr);
     }
 
-    // Decodes your encoded data to tree.
-    TreeNode* deserialize(string data) {
-        // cout<<data;
-        int len = data.size();
-        int ptr = 0;
-        return parse(data,ptr);
-    }
-
+   
     TreeNode* parse(string &data, int &ptr){
         // cout<<data;
         if(data[ptr]=='X'){

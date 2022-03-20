@@ -24,7 +24,7 @@ public:
             {
                 if (etime == -1)
                 {
-                    etime = i;‰´
+                    etime = i;
                 }
                 if (ltime < i)
                 {

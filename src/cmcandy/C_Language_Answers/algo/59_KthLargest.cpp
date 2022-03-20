@@ -5,16 +5,12 @@ using namespace ::std;
 class KthLargest
 {
 public:
-
     vector<int> heap;
-
-
     void show(){
         for (int i = 0; i < heap.size(); i++)
         {
             cout<< heap[i]<<endl;
         }
-        
     }
     void UpdateHeap()
     {

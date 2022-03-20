@@ -42,4 +42,4 @@ int main()
 {
     string words[] = {"abcw", "foo", "bar", "fxyz", "abcdef"};
     cout << maxProduct(words, 5);
-}Î
+}
